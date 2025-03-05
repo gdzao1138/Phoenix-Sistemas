@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Phoenix - Sistema</title>
+    <link rel="icon" href="favicon/favicon_io/android-chrome-192x192.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="nav-bar">
+            <div class="logo">
+                <h1>Phoenix Sistemas</h1>
+            </div>
+            <div class="nav-list">
+                <ul>
+                    <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                    <li class="nav-item"><a href="sistemas.html" class="nav-link">Projetos</a></li>
+                    <li class="nav-item"><a href="contato.html" class="nav-link"> Sobre</a></li>
+                </ul>
+            </div>
+            <div class="login-button">
+                <button><a href="login.html">Entrar</a></button>
+            </div>
+
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><img class="icon" src="assets/img/menu_white_36dp.svg" alt=""></button>
+            </div>
+        </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li class="nav-item"><a href="index.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="sistemas.html" class="nav-link">Projetos</a></li>
+                <li class="nav-item"><a href="contato.html" class="nav-link">Sobre</a></li>
+            </ul>
+
+            <div class="login-button">
+                <button><a href="login.html">Entrar</a></button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <h1>Preencha o formulario abaixo e nos conte sobre sua demanda.
+            Vamos analisar suas necessidades e enviar um orçamento inicial.
+            Estamos prontos para ajuda-lo a transformar seu projeto em relidade!
+        </h1>
+        <br>
+        <section class="formulario">
+            <form>
+                <fieldset>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome">
+                    <br>
+                    <br>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <br>
+                    <label for="telefone">Whatsapp:</label>
+                    <input type="tel" name="telefone" id="telefone">
+                    <br>
+                    <br>
+                    <label for="comentario">Digite aqui seu texto:</label><br>
+                    <textarea name="comentario" id="comentario" rows="10" cols="70" placeholder="Digite um aqui breve texto de qual a sua necessidade..."></textarea>
+                    <br>
+                    <br>
+                    <button><a href="#">Whatsapp</a></button>
+                    <button><a href="#">ENVIAR</a></button>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>COPYRIGHT © 2025. TODOS OS DIREITOS RESERVADOS.</p>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
